@@ -1,0 +1,245 @@
+
+/*--------------------------------------------------------------
+#	Laptop & Tablet (Ipad - Ipad pro) Responsive Styles
+--------------------------------------------------------------*/
+
+@media (min-width: 767px) and (max-width: 1023px) {
+
+    
+    /*--------------------------------------------------------------
+	1. Upper navbar
+    --------------------------------------------------------------*/
+
+    .navbar {
+        
+        padding-right: 0;
+        padding-left : 0;
+    }
+
+    .navbar .container { max-width: 100%; }
+
+    .navbar-dark .nav-link {
+
+        font-weight   : 600;
+        text-transform: uppercase;
+        padding       : 15px 25px;
+    }
+
+    .navbar-dark .navbar-toggler {
+
+        border : 0px;
+        padding: 20px 26px;
+        margin : 0px;
+    }
+
+    .navbar-nav { margin: 0px -15px; }
+
+    /*--------------------------------------------------------------
+	2. Home Section
+    --------------------------------------------------------------*/
+    
+    .home {
+
+        background-position-x: 65% !important;
+        background-size      : cover;
+    }
+
+    .home h1 { font-size: 3.8em; }
+
+    /*--------------------------------------------------------------
+	2.	Client Testimonials
+	--------------------------------------------------------------*/
+
+    .testimonials .slide .carousel-control-next { right: -40px; }
+    .testimonials .slide .carousel-control-prev { left : -40px; }
+
+}
+
+/*--------------------------------------------------------------
+#	Tablet (Ipad - Ipad pro) Responsive Styles
+--------------------------------------------------------------*/
+
+@media (min-width: 992px) {
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        
+        padding-right: 25px;
+        padding-left : 25px;
+    }
+}
+
+/*--------------------------------------------------------------
+#	Tablet Responsive Styles
+--------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+
+    /*--------------------------------------------------------------
+	1. Upper Navbar 
+	--------------------------------------------------------------*/
+    .navbar {
+
+        padding-right: 0;
+        padding-left : 0;
+    }
+
+    .container { max-width: 100%; }
+
+    .navbar-dark .nav-link {
+
+        font-weight   : 600;
+        text-transform: uppercase;
+        padding       : 15px 25px;
+    }
+
+    .navbar-dark .navbar-toggler {
+
+        border : 0px;
+        padding: 20px 26px;
+        margin : 0px;
+    }
+
+    .navbar-nav { margin: 0px -15px; }
+
+    .navbar-dark .navbar-toggler:focus,
+    .navbar-dark .navbar-toggler:hover { background-color: transparent; }
+
+    .navbar-dark .navbar-toggler i {
+
+        color    : #ffffff;
+        font-size: 18px;
+        outline  : 0;
+    }
+
+    /*--------------------------------------------------------------
+	2.	Home Section
+	--------------------------------------------------------------*/
+    .home {
+
+        height: 100vh;
+        background-position-x: 65% !important;
+    }
+
+    .home h1 { font-size: 2.5em; }
+
+    .section_scroll { bottom: 50px; }
+
+    /*--------------------------------------------------------------
+	3.	About Section
+    --------------------------------------------------------------*/
+    
+    .about .img { margin-bottom: 30px;  }
+
+    /*--------------------------------------------------------------
+	4.	Client Testimonials
+	--------------------------------------------------------------*/
+
+    .testimonials .slide .carousel-control-next { right: -10px; }
+    .testimonials .slide .carousel-control-prev { left : -10px; }
+}
+
+/*--------------------------------------------------------------
+#	Mobile Large Responsive Styles
+--------------------------------------------------------------*/
+
+@media (min-width: 375px) and (max-width: 425px) {
+
+    /*--------------------------------------------------------------
+          1.Home Section
+    --------------------------------------------------------------*/
+    .home h1 { font-size: 1.9em; }
+
+    .home p { font-size: 0.7rem; }
+
+    .hire-me-info li:first-of-type p { font-size: 14px; }
+}
+
+/*--------------------------------------------------------------
+#	Mobile Medium Responsive Styles
+--------------------------------------------------------------*/
+
+@media (min-width: 320px) and (max-width: 375px) {
+
+    /*--------------------------------------------------------------
+	1.	Navbar
+--------------------------------------------------------------*/
+    .navbar-brand span { padding: 25px 0px; }
+
+    /*--------------------------------------------------------------
+	  2.    Home Section
+--------------------------------------------------------------*/
+    .home {
+
+        height: 100vh;
+        background-position-x: 80% !important;
+    }
+
+    .home .jumbotron {
+
+        margin-top: 72px !important;
+        text-align: center;
+    }
+
+    .home h1 { font-size: 1.6em; }
+
+    .home p { font-size: 0.6rem; }
+
+    section { text-align: center; }
+
+    section .title { text-align: center; }
+
+    /*--------------------------------------------------------------
+	  3.    skills Section
+--------------------------------------------------------------*/    
+    .about-text p,
+    .skills p { text-align: justify; }
+
+
+   /*--------------------------------------------------------------
+	  4.    skills Section
+--------------------------------------------------------------*/
+
+    .hire-me-info .social_icon { justify-content: center; }
+}
+
+/*--------------------------------------------------------------
+#	Mobile Small Responsive Styles
+--------------------------------------------------------------*/
+
+@media (max-width: 319px) {
+
+    /*--------------------------------------------------------------
+	1.	Upper Navbar
+	--------------------------------------------------------------*/
+    .navbar-brand span { padding: 25px 0px; }
+
+    /*--------------------------------------------------------------
+	2.	Home Section
+    --------------------------------------------------------------*/
+    
+    .home {
+
+        height: 100vh;
+        background-position-x: 80% !important;
+    }
+
+    .home .jumbotron {
+
+        margin-top: 72px !important;
+        text-align: center;
+    }
+
+    .home h1 { font-size: 1.5em; }
+
+    .home p { font-size : 0.6rem; }
+
+    section { text-align: center; }
+
+    section .title { text-align: center; }
+
+    .about-text p,
+    .skills p { text-align: justify; }
+
+    .hire-me-info .social_icon { justify-content: center; }
+
+}
